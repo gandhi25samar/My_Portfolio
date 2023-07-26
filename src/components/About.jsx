@@ -32,6 +32,7 @@ const About = () => {
           eagerness to learn make me an effective team player and contribute
           positively to any project I'm involved in.
         </p>
+        <br />
       </div>
     </div>
   );
