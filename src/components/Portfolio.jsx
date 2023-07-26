@@ -29,7 +29,7 @@ const Portfolio = () => {
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
-        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className=" pb-10 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, href_code, href_demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

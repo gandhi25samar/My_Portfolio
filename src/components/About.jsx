@@ -16,13 +16,11 @@ const About = () => {
           My name is Samarjeet Singh Gandhi and I am a passionate and ambitious
           computer engineering student at Thapar Institute of Engineering and
           Technology, Patiala, with a deep-rooted love for programming and
-          full-stack development. My journey into the world of programming began
-          early in my academic career, where I discovered the power of turning
-          ideas into reality through lines of code. Over the years, I have honed
-          my skills in various programming languages and frameworks, including
-          Python, JavaScript, Java, HTML, CSS, and more. This versatility allows
-          me to approach projects from multiple angles and come up with
-          innovative solutions.
+          full-stack development. Over the years, I have honed my skills in
+          various programming languages and frameworks, including Python,
+          JavaScript, Java, HTML, CSS, and more. This versatility allows me to
+          approach projects from multiple angles and come up with innovative
+          solutions.
         </p>
         <br />
         <p className="text-xl">
