@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage_3.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
             Institute of Engineering and Technology, Patiala. I am into
             programming and want to work in the field of software engineering.
           </p>
-          <div>
+          <div className="flex items-center">
             <Link
               to="portfolio"
               smooth
@@ -31,6 +32,14 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            <button className=" m-4 group text-white w-fit px-6 py-3 my-2 flex items-centre rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+              <a href="/My_Resume.pdf" target="_blank" rel="noreferrer">
+                Resume
+              </a>
+              <span>
+                <AiOutlineDownload size={25} className="ml-1" />
+              </span>
+            </button>
           </div>
         </div>
         <div>
